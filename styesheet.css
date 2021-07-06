@@ -1,0 +1,89 @@
+body{
+			margin: 0;
+			background-color: #FAFAFA;
+			font-family: times new roman;
+			font-size: 17px;
+			color: #646464;
+		}
+		h1{
+			text-align: center;
+		}
+		h2{
+			text-align: center;
+		}
+		p{
+			margin: 0 20%;
+			text-indent: 50px;
+		}
+
+		.centerText{
+			font-size: 30px;
+			text-align: center;
+			color: white;
+			padding: 10px 30px;
+			position: absolute;
+			top: 50%; 
+			left: 50%; 
+			transform: translate(-50%, -50%);
+		}
+		.centerLogo{
+			position: absolute;
+			display: inline-block;
+			top: 15%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.centerLogo .img-top{
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 99;
+		}
+		.centerLogo:hover .img-top{
+			display: inline;
+		}
+		
+		.leaf{
+			padding-top: 15px;
+			width: 75px;
+			height: 30px;
+		}
+		.threeImage {
+			width: 20%;
+			height: 20%;
+			padding: 20px;
+			margin: 10px 10px;
+		}
+		.threeImage:hover{
+			background-image: url(images/threeHover.png);
+			background-size: 100%;
+			background-repeat: no-repeat;
+			display: inline;
+		}
+		.twoImage{
+			width: 400px;
+			height: 200px;
+			padding: 20px;
+			margin: 10px 10px;
+
+		}
+		.twoImage:hover{
+			background-image: url(images/threeHover.png);
+			background-size: 435px 245px;
+			background-repeat: no-repeat;
+			display: inline;
+		}
+		.oneImage{
+			width: 400px;
+			height: 250px;
+			padding: 20px;
+			margin: 10px 18%;
+
+		}
+		.oneImage:hover{
+			background-image: url(images/threeHover.png);
+			background-size: 103% 100%;
+			display: inline;
+
+		}
